@@ -19,6 +19,7 @@
 		3209F2DE048B807472AE7969 /* libPods-omt.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 55649DFB806D43223183561E /* libPods-omt.a */; };
 		5D4D4F9D23A4FDE47281818E /* libPods-omtTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F0FF466B2204BFF043A729C /* libPods-omtTests.a */; };
 		8E16046A85E65791D614149E /* libPods-omt-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B73A0453C865EAD022D3A81 /* libPods-omt-tvOS.a */; };
+		A9E98551232F0F5300C0DC80 /* gong-burmese.wav in Resources */ = {isa = PBXBuildFile; fileRef = A9E98550232F0F5300C0DC80 /* gong-burmese.wav */; };
 		BE388E2D623C26ABBE82D29E /* libPods-omt-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F5DE070F474AE7A82B31DA35 /* libPods-omt-tvOSTests.a */; };
 /* End PBXBuildFile section */
 
@@ -60,6 +61,7 @@
 		4B73A0453C865EAD022D3A81 /* libPods-omt-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-omt-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		55649DFB806D43223183561E /* libPods-omt.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-omt.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F0FF466B2204BFF043A729C /* libPods-omtTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-omtTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9E98550232F0F5300C0DC80 /* gong-burmese.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "gong-burmese.wav"; sourceTree = "<group>"; };
 		AD9565CC9DEFBDF3D505FA8E /* Pods-omt.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-omt.debug.xcconfig"; path = "Pods/Target Support Files/Pods-omt/Pods-omt.debug.xcconfig"; sourceTree = "<group>"; };
 		B5F70C53D699BD3086C955AB /* Pods-omt-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-omt-tvOSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-omt-tvOSTests/Pods-omt-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		EA14E4E63D797CA040024CA4 /* Pods-omt-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-omt-tvOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-omt-tvOS/Pods-omt-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
@@ -125,6 +127,7 @@
 		13B07FAE1A68108700A75B9A /* omt */ = {
 			isa = PBXGroup;
 			children = (
+				A9E98552232F0F5900C0DC80 /* sounds */,
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
@@ -195,6 +198,14 @@
 				2D02E4901E0B4A5D006451C7 /* omt-tvOSTests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		A9E98552232F0F5900C0DC80 /* sounds */ = {
+			isa = PBXGroup;
+			children = (
+				A9E98550232F0F5300C0DC80 /* gong-burmese.wav */,
+			);
+			path = sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -307,6 +318,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -336,6 +348,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				A9E98551232F0F5300C0DC80 /* gong-burmese.wav in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
